@@ -24,9 +24,9 @@ public class Interval {
 	 * @post | getBovengrens() == initiëleBovengrens
 	 * @post | getOndergrens() == initiëleOndergrens
 	 */
-	public Interval(int initiëleBovengrens, int initiëleOndergrens) {
-		this.bovengrens = initiëleBovengrens;
+	public Interval(int initiëleOndergrens, int initiëleBovengrens) {
 		this.ondergrens = initiëleOndergrens;
+		this.bovengrens = initiëleBovengrens;
 	}
 	
 	public int getOndergrens() {
